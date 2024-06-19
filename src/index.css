@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-stone-50;
+}
+
+@keyframes color-cycle {
+  0%,
+  100% {
+    @apply fill-stone-200;
+  }
+  50% {
+    @apply fill-indigo-500;
+  }
+}

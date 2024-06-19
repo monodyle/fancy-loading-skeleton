@@ -1,7 +1,11 @@
+import { Loading } from "./loading"
+
 function App() {
   return (
-    <div className="w-screen h-screen grid place-items-center">
-      <h1 className="text-xl font-medium">Recat Starter Pack 🎒</h1>
+    <div className="flex w-screen h-screen">
+      <div className="m-auto">
+        <Loading width={256} height={36} r={2} gap={4} />
+      </div>
     </div>
   )
 }
